@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    background-color: lightslategray;
+    padding: 2px;
+    margin: auto;
+    border-bottom: 5px solid black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    
+    
+}
+.nav-bar li {
+    list-style-type: none;
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-color: lightslategray;
+    width: auto;
+}
+
+section {
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.contactsection {
+    background-color: lightslategray;
+    border: 5px solid black;
+    padding: 20px;
+}
+form {
+    background-color: lightslategray;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    
+}
+ul.contact {
+   
+    list-style-type: none;
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    height: 10px;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+footer {
+    background-color: gray;
+    margin: 0;
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+footer h3 {
+    margin: 0 auto;
+    padding: 10px;
+}
